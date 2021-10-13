@@ -22,11 +22,17 @@ body{
 }
 
 header{
-    
+    padding-top: 30px;
+    background-image: url(/img/BG\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh   ;
+    position: relative;
 }
 
 .navbar{
-    margin-top: 30px;
+    
+    margin-bottom: 100px;
 }
 
 .container{
@@ -130,3 +136,42 @@ header{
     }
 }
 
+.main .container{
+    display: flex;
+    align-items: center;
+}
+
+.main_text{
+    font-size: 60px;
+    color: black;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.main_suoptext{
+    font-size: 22px;
+    width: 50%;
+    line-height: 37px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+.main_img{
+    position: absolute;
+    right: 34%;
+    top: 15%;
+}
+
+.main_imge{
+    position: absolute;
+    right: 5%;
+    top: 60%;
+}
+
+.main_photo{
+    width: 250px;
+}
+
+.main_photos{
+    width: 170px;
+}

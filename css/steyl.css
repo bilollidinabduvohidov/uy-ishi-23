@@ -2466,3 +2466,36 @@ input{
         width: 30px;
     }
 }
+
+.new{
+    background-color: #413E65;
+    padding: 100px 100px;
+}
+
+.new .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new_photo{
+    width: 500px;
+}
+
+.new_title{
+    margin-left: 100px;
+}
+
+.new_text{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.new_suptext{
+    font-size: 20px;
+    width: 95%;
+    line-height: 30px;
+    color: #FFFFFF70;
+    margin-bottom: 30px;
+}
